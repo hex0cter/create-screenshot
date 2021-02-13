@@ -1,6 +1,6 @@
 {
   "name": "create-screenshot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/hex0cter/create-screenshot",
   "description": "A CLI command to capture the screenshot of entire desktop.",
   "main": "src/cli.js",
