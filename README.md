@@ -1,4 +1,7 @@
 # Create a screenshot of the current destop
+![create-screenshot](https://img.shields.io/npm/v/create-screenshot)
+
+A CLI command wrapper for [screenshot-desktop](https://www.npmjs.com/package/screenshot-desktop).
 
 ## Usage
 ```bash
