@@ -1,0 +1,29 @@
+{
+  "name": "create-screenshot",
+  "version": "0.0.1",
+  "description": "A CLI command to capture the screenshot of entire desktop.",
+  "main": "src/cli.js",
+  "bin": {
+    "@hex0cter/create-screenshot": "bin/create-screeenshot",
+    "create-screenshot": "bin/create-screenshot"
+  },
+  "keywords": [
+    "cli",
+    "create-screenshot",
+    "capture-screenshot"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "rm -rf screenshots/*.png"
+  },
+  "author": "Daniel Han",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "esm": "^3.2.25",
+    "screenshot-desktop": "^1.12.3",
+    "shelljs": "^0.8.4"
+  }
+}
