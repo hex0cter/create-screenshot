@@ -1,6 +1,7 @@
 {
   "name": "create-screenshot",
   "version": "0.0.1",
+  "homepage": "https://github.com/hex0cter/create-screenshot",
   "description": "A CLI command to capture the screenshot of entire desktop.",
   "main": "src/cli.js",
   "bin": {
@@ -18,8 +19,12 @@
   "scripts": {
     "clean": "rm -rf screenshots/*.png"
   },
-  "author": "Daniel Han",
+  "author": "Daniel Han <hex0cter@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hex0cter/create-screenshot.git"
+  },
   "dependencies": {
     "argparse": "^2.0.1",
     "esm": "^3.2.25",
