@@ -3,6 +3,11 @@
 
 A CLI command wrapper for [screenshot-desktop](https://www.npmjs.com/package/screenshot-desktop).
 
+## Install
+```bash
+npm install -g create-screenshot
+```
+
 ## Usage
 ```bash
 usage: create-screenshot [-h] [-v] [-d OUTPUT_DIR]
