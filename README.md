@@ -3,7 +3,7 @@
 
 A CLI command wrapper for [screenshot-desktop](https://www.npmjs.com/package/screenshot-desktop).
 
-## Install
+## Installation
 ```bash
 npm install -g create-screenshot
 ```
